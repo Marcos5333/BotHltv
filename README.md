@@ -41,22 +41,11 @@ Dependências úteis em desenvolvimento:
 
 npm install --save-dev nodemon
 
-
 nodemon — reinicia automaticamente em desenvolvimento.
 
 ⚙️ .env.example
 
-Crie um .env (NUNCA commite este arquivo):
-
-# PandaScore
-PANDASCORE_KEY=seu_token_pandascore
-
-# OpenWA / Puppeteer
-CHROME_PATH=   # caminho para executável do Chrome/Chromium (opcional)
-HEADLESS=false # true/false
-
-# Ajustes
-AUTO_REFRESH_INTERVAL=60 # em segundos
+Print do ENV no GIT
 
 📁 Estrutura sugerida do repositório
 /src
@@ -72,14 +61,7 @@ README.md
 
 Clonar o repositório:
 
-git clone https://github.com/SEU-USUARIO/cs2-monitor.git
-cd cs2-monitor
-
-
-Instalar dependências:
-
-npm install
-
+git clone https://github.com/Marcos5333/BotHltv/
 
 Criar .env baseado no .env.example.
 
